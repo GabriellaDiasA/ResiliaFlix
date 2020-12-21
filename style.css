@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(255,255,225);
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #171716;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.links{
+    width: 35%;
+    margin-right: 8%;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+#logo{
+    color: rgb(232,192,0);
+    font-size: 32px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 625;
+}
+
+#span-logo{
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a{
+    margin-right: 5px;
+    color: white;
+    text-decoration: none;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+nav a:hover{
+    color: rgb(232,192,0);
+    transition-duration: 150ms;
+}
+
+
+/*Main Content*/
+
+
+.main-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    padding-top: 140px;
+    margin-left: 11%;
+    margin-right: 11%;
+    padding-bottom: 120px;
+    width: 78%;
+}
+
+.movie-preview{
+    display: inline-block;
+    margin: 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    height: 360px;
+    width: 240px;
+}
+
+p{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #171716;
+}
+
+.social-media-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.social-media-links a{
+    height: 35px;
+}
+
+.small-logo{
+    height: 35px;
+    width: 35px;
+}
+
+.legal-copyright{
+    text-align: center;
+}
+
+#copyright-text{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 10px;
+    color: rgb(232,192,0);
+    margin: 0;
+}
